@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/cd0161509171ec0b9558c548d8e9c26d?family=Bank+Gothic);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+/* astronom */
+.logo{
+    font-family: "Bank Gothic";
+    font-size:28px;
+}
+
+/* gambar home */
+header{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('Picture/human_spaceflight_earth.png');
+    background-size:cover;
+    height: 50vw;
+    background-repeat: no-repeat;
+}
+
+/* navigation bar */
+header nav{
+    position: fixed;
+    padding: 20px 40px 20px 100px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.9fr;
+    align-items: center;
+    border-bottom:1px solid #1d1d1d;
+    background-color:rgb(0, 0, 0, 0.5);
+}
+
+/* posisi tulisan navbar */
+header nav .navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header nav .navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 30px;
+    position: relative;
+}
+
+header nav .navbar a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+}
+
+header nav .navbar a:hover:after{
+    width: 70%;
+}
+
+header nav .navbar a.active:after{
+    width: 70%;
+}
+
+
+/* header text */
+header .header-text{
+    position: absolute;
+    color: #ffffff;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-top: 20vw;
+    margin-left: 10vw;
+    width: 45%
+}
+
+header .header-text h1{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+header .header-text p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* button start learning */
+
+header .header-text button a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 2px;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+header .header-text button{
+    background-color: transparent;
+    border-color: #ffffff;
+    margin-top: 25px;
+}
+
+header .header-text button a:hover{
+    background-color: rgb(255, 255, 255, 0.1);
+    transition: 0.3s ease;
+}
+
+
+/* content: daftar resource */
+
+section {
+    background-color: black;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+#chapters .title{
+    width: 40%;
+    margin: auto; /*text di tengah*/
+}
+
+#chapters .title h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+#chapters .title p{
+    text-align:center;
+    padding-bottom: 150px;
+    line-height: 30px;
+}
+
+/* gambar sebelahan dengan text */
+
+/* box left, space/galaxies dan rocket */
+
+#chapters .box-left {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vw;
+    width: 100%;
+    padding-right:100px;
+}
+
+#chapters .box-left img{
+    width: 50%;
+    height: 100%;
+    margin-right: 100px;
+    object-fit: contain;
+}
+
+/*box right astronauts*/
+#chapters .box-right {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vw;
+    width: 100%;
+    padding-left: 100px;
+}
+
+#chapters .box-right img{
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+/* tulisan di sebelah gambar semuanya */
+#chapters .content{
+    text-align: left;
+    line-height: 30px;
+}
+
+#chapters .content h2{
+    margin-bottom: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#chapters .content p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+/* button semuanya */
+#chapters button{
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+#chapters button a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 2px;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#chapters button a:hover{
+    background-color: rgb(255, 255, 255, 0.1);
+    transition: 0.3s ease;
+}
+
+
+/*footer*/
+
+footer {
+    background: #121212;
+    padding: 60px 0;
+}
+
+.footer-container {
+    margin-left: 100px;
+}
+
+footer h3{
+    font-family: "Bank Gothic";
+    font-size: 30px;
+}
+
+/*agar bisa 4 baris*/
+footer > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer .copyright span{
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 5px;
+} 
+
+footer h1 {
+    font-size: 18px;
+    position:relative;
+    margin-bottom: 30px;
+} 
+
+footer h1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #ffffff;
+}
+
+footer p {
+    font-size: 14px;
+    color: #b9b8b8;
+    line-height: 25px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: #b9b8b8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #ffffff;
+ }
+
+ footer .social a {
+    margin-right: 30px;
+}
+
+

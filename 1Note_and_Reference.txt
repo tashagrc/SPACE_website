@@ -1,0 +1,31 @@
+Natasha Grace Radika 
+2540103055
+HCI Proyek Individu
+Space
+
+=== Astronom ===
+Berisi kumpulan gambar, artikel, dan infografis mengenai luar angkasa 
+untuk tujuan edukasi
+
+=== Folder Management ===
+1. Home Page: halaman utama website, berisi daftar resource/content yang ada di website ini
+2. Form Page: form data diri yang dapat diisi user untuk subsribe ke website ini
+3. Space, Rocket, Astronaut page: content/artikel yang disediakan oleh website ini
+4. Picture: gambar yang digunakan di dalam website ini
+
+=== Referensi ===
+Gambar dan artikel yang digunakan dalam website ini diambil dari:
+https://hubblesite.org/ 
+https://www.spacex.com/ 
+https://unsplash.com/photos/I0fDR8xtApA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink (Astronaut)
+https://en.wikipedia.org/wiki/Astronaut (Astronaut text)
+https://en.wikipedia.org/wiki/Rocket (Rocket text)
+
+Link yang dicantumkan di website ini:
+
+https://twitter.com/NASA?s=20&t=D100dL2m8FZABgIHrnJ4xQ (Footer)
+https://www.instagram.com/nasa/?hl=en (Footer)
+https://www.linkedin.com/company/nasa/?originalSubdomain=id (Footer)
+https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ (Footer)
+
+
