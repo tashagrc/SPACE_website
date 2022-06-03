@@ -4,22 +4,31 @@ HCI Proyek Individu
 Space
 
 === Astronom ===
-Berisi kumpulan gambar, artikel, dan infografis mengenai luar angkasa 
-untuk tujuan edukasi
+Berisi kumpulan artikel mengenai luar angkasa untuk tujuan edukasi
 
 === Folder Management ===
+1. File home.html dan home.css -> halaman utama website (buka website mulai dari sini)
+2. Picture -> gambar yang digunakan di dalam website ini
+3. Content -> berisi halaman astronaut, rocket, dan space yang berisi artikel mengenai luar angkasa
+4. Subscribe -> berisi halaman form untuk subsribe
+
+=== Website page === 
+(struktur: navigation, header, content, footer)
 1. Home Page: halaman utama website, berisi daftar resource/content yang ada di website ini
 2. Form Page: form data diri yang dapat diisi user untuk subsribe ke website ini
 3. Space, Rocket, Astronaut page: content/artikel yang disediakan oleh website ini
-4. Picture: gambar yang digunakan di dalam website ini
+
 
 === Referensi ===
 Gambar dan artikel yang digunakan dalam website ini diambil dari:
-https://hubblesite.org/ 
-https://www.spacex.com/ 
-https://unsplash.com/photos/I0fDR8xtApA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink (Astronaut)
-https://en.wikipedia.org/wiki/Astronaut (Astronaut text)
-https://en.wikipedia.org/wiki/Rocket (Rocket text)
+https://hubblesite.org/ (gambar dan artikel)
+https://www.spacex.com/ (gambar)
+https://unsplash.com/photos/I0fDR8xtApA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink (gambar Astronaut)
+https://en.wikipedia.org/wiki/Astronaut (Astronaut text untuk homepage)
+https://en.wikipedia.org/wiki/Rocket (Rocket text untuk homepage)
+https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-rocket-k4.html (artikel rocket)
+https://www.ducksters.com/science/physics/astronaut.php (artikel astronaut)
+id.wikipedia.org (gambar astronot)
 
 Link yang dicantumkan di website ini:
 

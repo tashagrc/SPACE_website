@@ -19,15 +19,35 @@ body{
 }
 
 /* gambar home */
-.form-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('../Picture/fh_feature.png');
+
+#astronaut{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('../Picture/human_spaceflight_feature.png');
     background-size:cover;
-    height: 50vw;
+    height: 40vw;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
+#rocket{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('../Picture/hls-resized-2.png');
+    background-size:cover;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#space{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('../Picture/home1.png');
+    background-size:cover;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
 /* navigation bar */
-.form-container nav{
+.header nav{
     position: fixed;
     padding: 20px 40px 20px 100px;
     display: grid;
@@ -35,23 +55,24 @@ body{
     align-items: center;
     border-bottom:1px solid #1d1d1d;
     background-color:rgb(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 /* posisi tulisan navbar */
-.form-container nav .navbar{
+.header nav .navbar{
     display:flex;
     align-items:center;
     justify-content: space-between;
 }
 
-.form-container nav .navbar a{
+.header nav .navbar a{
     text-decoration: none;
     color: #ffffff;
     margin-right: 30px;
     position: relative;
 }
 
-.form-container nav .navbar a:after {
+.header nav .navbar a:after {
     content: '';
     position: absolute;
     left: 0;
@@ -62,13 +83,194 @@ body{
     transition: 0.3s ease;
 }
 
-.form-container nav .navbar a:hover:after{
+.header nav .navbar a:hover:after{
     width: 70%;
 }
 
-.form-container nav .navbar a.active:after{
+.header nav .navbar a.active:after{
     width: 70%;
 }
+
+/*header text*/
+.header .text{
+    position: absolute;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vw;
+    width: 100%;
+}
+
+.header .text h1{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 80px;
+    letter-spacing: 20px;
+}
+
+.header .text p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.header .text #quote{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.header .text #credit{
+    font-weight: 200;
+}
+
+/*content*/
+
+
+#content{
+    background-color: black;
+    color:#ffffff;
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#content h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+#content p{
+    text-align: justify;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+#content .image{
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+#content ul{
+    margin-left: 40px;
+}
+
+#content ul li{
+    font-weight: 600;
+}
+
+#content .line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #ffffff;
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*video*/
+#content iframe{
+    height: 300px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*rocket title picture*/
+#pic-title1{
+    background-image: url("../Picture/rocket1.png");
+    background-size:cover;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pic-title2{
+    background-image: url("../Picture/rocket2.png");
+    background-size:cover;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pic-title3{
+    background-image: url("../Picture/Merlin.png");
+    background-size:cover;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*text pic title*/
+.text-pic{
+    position: absolute;
+    color: #ffffff;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 30%;
+}
+
+.text-pic h5{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.text-pic p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/*space x paragraph title*/
+
+#spacex{
+    width: 50%;
+    margin: auto;
+}
+
+/*astronaut profil*/
+#content .astro{
+    margin-left: 5vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#content .astro img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#content .astro h5{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 
 /*footer*/
 

@@ -29,47 +29,53 @@
                 <div class="form">
                     <span class="title">
                         <h1>Stay in touch</h1>
-                        <p>Subscribe to our weekly newsletter to get the latest news and space fun fact delivered directly in your inbox</p>
                     </span>
+                    <p>Subscribe to our weekly newsletter to get the latest news and space fun fact delivered directly in your inbox</p>
                     
                     <form action="#">
                         <div class="input-field">
                             <label for="name">Name</label><br>
                             <input type="text" id="name" name="name" placeholder="Enter your full name" required>
                         </div>
-                    
+                        
                         <div class="input-field">
                             <label for="email">Email</label><br>
                             <input type="text" id="email" name="email" placeholder="Enter your email" required>
                         </div>
-
+                        
                         <div class="dropdown">
-                            <label for="continent">Your continent</label>
-                            <select id="continent" name="continent">
-                                <option value="default">Choose</option>
-                                <option value="asia">Asia</option>
-                                <option value="africa">Africa</option>
-                                <option value="europe">Europe</option>
-                                <option value="america">America</option>
-                                <option value="australia">Australia</option>
-                            </select>
+                            <div class="text">
+                                <label for="continent">Where are you from?</label>
+                            </div>
+                            <div class="dropdown-box">
+                                <select id="continent" name="continent">
+                                    <option value="default">Select Continent</option>
+                                    <option value="asia">Asia</option>
+                                    <option value="africa">Africa</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="america">America</option>
+                                    <option value="australia">Australia</option>
+                                </select>
+                            </div>
                         </div>
-
+                        
                         <div class="description">
-                            <label for="desc">Description</label>
-                            <textarea name="desc" placeholder="Tell us something about yourself" rows="5" cols="30">
-                            </textarea>      
+                            <div class="text">
+                                <label for="desc">Description</label>
+                            </div>
+                            <textarea name="desc" rows="5" cols="30">Tell us something about yourself!</textarea>      
                         </div>
-
+                        
                         <div class="checkbox-box">
                             <input type="checkbox" id="terms">
                             <label for="terms" class="text"><p>Agree to Terms and Conditions</p></label>
                         </div>
-
-                        <div class="btn">
-                            <button type="submit" value="Subscribe">Subscribe</button>
-                            <button type="reset" value="Reset">Reset</button>
+                        
+                        <div class="btn-box">
+                            <button type="reset" value="Reset" class="button"><p>Reset</p></button>
+                            <button type="submit" value="Subscribe" class="button" id="subs"><p>Subscribe</p></button>
                         </div>
+                        
                     </form>
                 </div>
             </div>
