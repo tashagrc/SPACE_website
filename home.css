@@ -235,6 +235,40 @@ section {
     transition: 0.3s ease;
 }
 
+/*hover element yg bisa keluar image*/
+.content #galaxies-title:hover::before{
+    content: "";
+    display: block;
+    background: url('Picture/planet.png');
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content #astronaut-title:hover::before{
+    content: "";
+    display: block;
+    background: url('Picture/astronaut-helmet.png');
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content #rocket-title:hover::before{
+    content: "";
+    display: block;
+    background: url('Picture/rocket.png');
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
 
 /*footer*/
 

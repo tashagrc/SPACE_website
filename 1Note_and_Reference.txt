@@ -20,9 +20,11 @@ Struktur setiap halaman:
 4. Footer -> navigasi dan link ke media sosial
 
 Halaman:
-1. Home Page: halaman utama website, berisi daftar resource/content yang ada di website ini (hover image)
+1. Home Page: halaman utama website, berisi daftar resource/content yang ada di website ini 
 2. Form Page: form data diri yang dapat diisi user untuk subsribe ke website ini
 3. Space, Rocket, Astronaut page: content/artikel yang disediakan oleh website ini
+
+Note: hover image berada di halaman home, bagian subjudul resource
 
 
 === Referensi ===
@@ -35,6 +37,7 @@ https://en.wikipedia.org/wiki/Rocket (Rocket text untuk homepage)
 https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-rocket-k4.html (artikel rocket)
 https://www.ducksters.com/science/physics/astronaut.php (artikel astronaut)
 id.wikipedia.org (gambar astronot)
+https://www.flaticon.com/packs/space-292 (icon)
 
 Link yang dicantumkan di website ini:
 
