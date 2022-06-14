@@ -23,7 +23,7 @@ body{
 #astronaut{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('../Picture/human_spaceflight_feature.png');
     background-size:cover;
-    height: 40vw;
+    height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -31,7 +31,7 @@ body{
 #rocket{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('../Picture/hls-resized-2.png');
     background-size:cover;
-    height: 40vw;
+    height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -39,7 +39,7 @@ body{
 #space{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('../Picture/home1.png');
     background-size:cover;
-    height: 40vw;
+    height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
 }
